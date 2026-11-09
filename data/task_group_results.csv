@@ -1,0 +1,5 @@
+task_group,tasks,episodes,official_release_successes,official_release_percent,rtx4090_bf16_successes,rtx4090_bf16_percent,qcs8550_qnn_successes,qcs8550_qnn_percent
+Object transfer,8,800,452,56.5,461,57.625,467,58.375
+Doors and drawers,6,600,553,92.16666666666667,549,91.5,548,91.33333333333333
+Appliance controls,7,700,575,82.14285714285714,575,82.14285714285714,580,82.85714285714286
+Coffee tasks,3,300,201,67.0,197,65.66666666666667,198,66.0

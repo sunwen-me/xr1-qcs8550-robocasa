@@ -1,0 +1,25 @@
+task,task_group,episodes,official_release_successes,official_release_percent,rtx4090_bf16_successes,rtx4090_bf16_percent,qcs8550_qnn_successes,qcs8550_qnn_percent,qcs_vs_rtx4090_pp
+PnPCounterToCab,Object transfer,100,56,56,60,60,58,58,-2
+PnPCabToCounter,Object transfer,100,64,64,67,67,69,69,2
+PnPCounterToSink,Object transfer,100,59,59,61,61,64,64,3
+PnPSinkToCounter,Object transfer,100,71,71,71,71,76,76,5
+PnPCounterToMicrowave,Object transfer,100,30,30,29,29,31,31,2
+PnPMicrowaveToCounter,Object transfer,100,37,37,37,37,33,33,-4
+PnPCounterToStove,Object transfer,100,73,73,72,72,69,69,-3
+PnPStoveToCounter,Object transfer,100,62,62,64,64,67,67,3
+OpenSingleDoor,Doors and drawers,100,87,87,83,83,82,82,-1
+CloseSingleDoor,Doors and drawers,100,100,100,98,98,99,99,1
+OpenDoubleDoor,Doors and drawers,100,99,99,96,96,95,95,-1
+CloseDoubleDoor,Doors and drawers,100,94,94,94,94,95,95,1
+OpenDrawer,Doors and drawers,100,77,77,80,80,79,79,-1
+CloseDrawer,Doors and drawers,100,96,96,98,98,98,98,0
+TurnOnStove,Appliance controls,100,82,82,80,80,84,84,4
+TurnOffStove,Appliance controls,100,29,29,28,28,33,33,5
+TurnOnSinkFaucet,Appliance controls,100,91,91,88,88,82,82,-6
+TurnOffSinkFaucet,Appliance controls,100,97,97,97,97,97,97,0
+TurnSinkSpout,Appliance controls,100,86,86,91,91,93,93,2
+TurnOnMicrowave,Appliance controls,100,91,91,91,91,91,91,0
+TurnOffMicrowave,Appliance controls,100,99,99,100,100,100,100,0
+CoffeeSetupMug,Coffee tasks,100,42,42,42,42,45,45,3
+CoffeeServeMug,Coffee tasks,100,77,77,72,72,70,70,-2
+CoffeePressButton,Coffee tasks,100,82,82,83,83,83,83,0

@@ -1,0 +1,8 @@
+metric,unit,float_qwen,w8a16_qwen,n,statistic,notes
+warm_elapsed_mean,s,1.6283637229,1.8407921607,23,mean,Client wall time from connection start through full response receipt; first request excluded
+warm_elapsed_median,s,1.6042906800,1.8195085200,23,median,Client wall time from connection start through full response receipt; first request excluded
+warm_elapsed_p95,s,1.7384625540,1.9476902461,23,p95,Client wall time from connection start through full response receipt; first request excluded
+warm_server_request_mean,s,1.0555846522,1.2156280000,23,mean,Board timer from full request frame receipt through request handling and response frame construction
+cold_elapsed,s,18.1573542550,7.6974159780,1,cold_first_request,First client round trip, including context loading
+qwen_context_total,GiB,7.5165201351,4.1463862658,6,aggregate_context_files,On-disk Qwen context files; not runtime RAM
+warm_mem_available_median,MiB,3513.1875,6573.8203125,23,median,Board MemAvailable from proc meminfo after each warm request; first cold request excluded

@@ -1,0 +1,5 @@
+system,successes,episodes,success_rate_percent,definition
+Official paper headline,,,74.5,Headline value reported by the paper
+Official episode-level result,1781,2400,74.20833333333333,Sum of official task-level success counts
+RTX 4090 BF16 reproduction,1782,2400,74.25,Independent BF16 reproduction
+QCS8550 QNN migration,1793,2400,74.70833333333333,Native QNN evaluation on QCS8550
